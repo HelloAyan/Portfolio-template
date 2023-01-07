@@ -170,6 +170,49 @@
 }
 /* Watch Section Start */
 
+/* Blog Section Start */
+
+.blog{
+    width: 80%;
+    margin: 0 auto 60px auto;
+}
+
+.blog h2{
+    font-size: 40px;
+    text-align: center;
+    color: #F15B22;
+}
+
+.blogContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.blogPost{
+    width: 200px;
+
+}
+
+.blogPost img{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.blogPost h3{
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #F15B22;
+    cursor: pointer;
+}
+
+.blogPost h3:hover{
+    color: #878686;
+}
+
+/* Blog Section End */
+
 /* Footer Container Start */
 
 .footerContainer{
