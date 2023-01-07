@@ -43,6 +43,7 @@
     font-size: 20px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 /* Header Banner End */
 
@@ -132,7 +133,7 @@
 .watch{
     width: 83%;
     height: 300px;
-    margin: 0 auto 40px auto ;
+    margin: 0 auto 130px auto ;
     background-image:
     linear-gradient(to right, rgb(241, 91, 34), rgba(241, 93, 34, 0)),
     url('../images/watch.png');
@@ -156,7 +157,7 @@
     line-height: 50px;
 }
 
-.watchContent button{
+.secondaryBtn{
     width: 160px;
     height: 54px;
     border: none;
@@ -165,4 +166,66 @@
     font-size: 20px;
     color: #F15B22;
     margin-top: 20px;
+    border-radius: 5px;
+}
+/* Watch Section Start */
+
+/* Footer Container Start */
+
+.footerContainer{
+    width: 100%;
+    height: 470px;
+    padding: 130px 230px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.future{
+    width: 50%;
+}
+
+.future h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.future p{
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.contactInfo{
+    line-height: 30px;
+}
+
+.socialIconContainer{
+    display: flex;
+    gap: 17px;
+    margin-top: 20px;
+}
+
+.socialIconContainer img{
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+}
+.subscribe h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.subscribe input{
+    width: 325px;
+    height: 40px;
+    padding: 3px 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+
 }
