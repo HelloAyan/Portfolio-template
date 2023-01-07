@@ -6,6 +6,7 @@
     font-weight: 300;
 }
 
+/* Header Banner Start */
 .banner{
     width: 100%;
     height: 600px;
@@ -42,4 +43,51 @@
     font-size: 20px;
     border: none;
     cursor: pointer;
+}
+/* Header Banner End */
+
+/* myFailuresContainer Section Start */
+
+.myFailuresContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 0 0;
+}
+
+.profileImage{
+    width: 60%;
+    margin: 30px 10px 30px 100px;
+}
+
+.profileImage img{
+    width: 570px;
+    height: 724px;
+}
+
+.failuresContent{
+    width: 40%;
+    padding-right: 100px;
+}
+
+.failuresContent h2{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.failuresContent p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.checkboxContainer{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.checkboxContainer i{
+    color: #16D887;
+    margin-right: 10px;
 }
